@@ -20,11 +20,11 @@ process.stdin.on("data", function(data){
     } else {
         let instrumento = input;
         let mensagens = {
-            "violão": "Que legal! O violão é um instrumento muito versátil.",
-            "piano": "Incrível! O piano é um instrumento muito elegante.",
-            "bateria": "Uau! A bateria dá o ritmo para as músicas.",
-            "violino": "Maravilhoso! O violino tem um som muito bonito.",
-            "flauta": "Muito bacana! A flauta é um instrumento com um som suave.",
+            "violão": "Que legal!",
+            "piano": "Incrível!",
+            "bateria": "Uau!",
+            "violino": "Maravilhoso!",
+            "flauta": "Muito bacana!",
         };
 
         if (mensagens[instrumento]) {
